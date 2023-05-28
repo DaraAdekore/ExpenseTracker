@@ -7,8 +7,8 @@
 
 import Foundation
 
-enum ExpenseType:String, CaseIterable {
-    case All = "All"
-    case Business = "Business"
-    case Personal = "Personal"
+enum ExpenseType: String, CaseIterable {
+    case all = "all"
+    case business = "business"
+    case personal = "personal"
 }
