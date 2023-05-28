@@ -35,7 +35,7 @@ Contributions to the Expense Tracker App are welcome! If you find any issues or 
 
 
 
-https://github.com/DaraAdekore/ExpenseTracker/assets/18224357/12436db7-eddb-4113-a1b2-655aed8ad5d2
+https://github.com/DaraAdekore/ExpenseTracker/assets/18224357/aa3c49a3-066c-4fca-a62e-ca15c9f7367d
 
 
 
