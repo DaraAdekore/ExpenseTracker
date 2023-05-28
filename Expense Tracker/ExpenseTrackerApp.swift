@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Expense_TrackerApp: App {
+struct ExpenseTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExpenseView()
         }
     }
 }

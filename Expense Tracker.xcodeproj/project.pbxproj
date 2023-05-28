@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47BC6A922A22CC0000F3F19B /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6A912A22CC0000F3F19B /* Expense_TrackerApp.swift */; };
-		47BC6A942A22CC0000F3F19B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6A932A22CC0000F3F19B /* ContentView.swift */; };
+		47BC6A922A22CC0000F3F19B /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6A912A22CC0000F3F19B /* ExpenseTrackerApp.swift */; };
+		47BC6A942A22CC0000F3F19B /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6A932A22CC0000F3F19B /* ExpenseView.swift */; };
 		47BC6A962A22CC0100F3F19B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BC6A952A22CC0100F3F19B /* Assets.xcassets */; };
 		47BC6A992A22CC0100F3F19B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47BC6A982A22CC0100F3F19B /* Preview Assets.xcassets */; };
-		47BC6AA32A22CC0100F3F19B /* Expense_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AA22A22CC0100F3F19B /* Expense_TrackerTests.swift */; };
-		47BC6AAD2A22CC0100F3F19B /* Expense_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AAC2A22CC0100F3F19B /* Expense_TrackerUITests.swift */; };
-		47BC6AAF2A22CC0100F3F19B /* Expense_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AAE2A22CC0100F3F19B /* Expense_TrackerUITestsLaunchTests.swift */; };
+		47BC6AA32A22CC0100F3F19B /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AA22A22CC0100F3F19B /* ExpenseTrackerTests.swift */; };
+		47BC6AAD2A22CC0100F3F19B /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AAC2A22CC0100F3F19B /* ExpenseTrackerUITests.swift */; };
+		47BC6AAF2A22CC0100F3F19B /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AAE2A22CC0100F3F19B /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		47BC6ABC2A22CC9000F3F19B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6ABB2A22CC9000F3F19B /* ExpenseItem.swift */; };
+		47BC6AC12A22CCCC00F3F19B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AC02A22CCCC00F3F19B /* ExpenseItem.swift */; };
+		47BC6AC32A22CD3D00F3F19B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AC22A22CD3D00F3F19B /* Expenses.swift */; };
+		47BC6AC62A22D4AA00F3F19B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AC52A22D4AA00F3F19B /* AddView.swift */; };
+		47BC6AC82A22D4FD00F3F19B /* ExpenseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BC6AC72A22D4FD00F3F19B /* ExpenseType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +40,20 @@
 
 /* Begin PBXFileReference section */
 		47BC6A8E2A22CC0000F3F19B /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47BC6A912A22CC0000F3F19B /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
-		47BC6A932A22CC0000F3F19B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47BC6A912A22CC0000F3F19B /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
+		47BC6A932A22CC0000F3F19B /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
 		47BC6A952A22CC0100F3F19B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47BC6A982A22CC0100F3F19B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47BC6A9E2A22CC0100F3F19B /* Expense TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47BC6AA22A22CC0100F3F19B /* Expense_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerTests.swift; sourceTree = "<group>"; };
+		47BC6AA22A22CC0100F3F19B /* ExpenseTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerTests.swift; sourceTree = "<group>"; };
 		47BC6AA82A22CC0100F3F19B /* Expense TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Expense TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47BC6AAC2A22CC0100F3F19B /* Expense_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerUITests.swift; sourceTree = "<group>"; };
-		47BC6AAE2A22CC0100F3F19B /* Expense_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47BC6AAC2A22CC0100F3F19B /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
+		47BC6AAE2A22CC0100F3F19B /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47BC6ABB2A22CC9000F3F19B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpenseItem.swift; path = Models/ExpenseItem.swift; sourceTree = "<group>"; };
+		47BC6AC02A22CCCC00F3F19B /* ExpenseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		47BC6AC22A22CD3D00F3F19B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		47BC6AC52A22D4AA00F3F19B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		47BC6AC72A22D4FD00F3F19B /* ExpenseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +104,13 @@
 		47BC6A902A22CC0000F3F19B /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				47BC6A912A22CC0000F3F19B /* Expense_TrackerApp.swift */,
-				47BC6A932A22CC0000F3F19B /* ContentView.swift */,
+				47BC6AC42A22D48E00F3F19B /* Views */,
+				47BC6ABF2A22CCCC00F3F19B /* Models */,
+				47BC6A912A22CC0000F3F19B /* ExpenseTrackerApp.swift */,
+				47BC6A932A22CC0000F3F19B /* ExpenseView.swift */,
 				47BC6A952A22CC0100F3F19B /* Assets.xcassets */,
 				47BC6A972A22CC0100F3F19B /* Preview Content */,
+				47BC6ABB2A22CC9000F3F19B /* ExpenseItem.swift */,
 			);
 			path = "Expense Tracker";
 			sourceTree = "<group>";
@@ -113,7 +126,7 @@
 		47BC6AA12A22CC0100F3F19B /* Expense TrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				47BC6AA22A22CC0100F3F19B /* Expense_TrackerTests.swift */,
+				47BC6AA22A22CC0100F3F19B /* ExpenseTrackerTests.swift */,
 			);
 			path = "Expense TrackerTests";
 			sourceTree = "<group>";
@@ -121,10 +134,28 @@
 		47BC6AAB2A22CC0100F3F19B /* Expense TrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				47BC6AAC2A22CC0100F3F19B /* Expense_TrackerUITests.swift */,
-				47BC6AAE2A22CC0100F3F19B /* Expense_TrackerUITestsLaunchTests.swift */,
+				47BC6AAC2A22CC0100F3F19B /* ExpenseTrackerUITests.swift */,
+				47BC6AAE2A22CC0100F3F19B /* ExpenseTrackerUITestsLaunchTests.swift */,
 			);
 			path = "Expense TrackerUITests";
+			sourceTree = "<group>";
+		};
+		47BC6ABF2A22CCCC00F3F19B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				47BC6AC02A22CCCC00F3F19B /* ExpenseItem.swift */,
+				47BC6AC22A22CD3D00F3F19B /* Expenses.swift */,
+				47BC6AC72A22D4FD00F3F19B /* ExpenseType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47BC6AC42A22D48E00F3F19B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				47BC6AC52A22D4AA00F3F19B /* AddView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +168,7 @@
 				47BC6A8A2A22CC0000F3F19B /* Sources */,
 				47BC6A8B2A22CC0000F3F19B /* Frameworks */,
 				47BC6A8C2A22CC0000F3F19B /* Resources */,
+				47ACC1A12A23C46A00022DC2 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -252,13 +284,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47ACC1A12A23C46A00022DC2 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47BC6A8A2A22CC0000F3F19B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47BC6A942A22CC0000F3F19B /* ContentView.swift in Sources */,
-				47BC6A922A22CC0000F3F19B /* Expense_TrackerApp.swift in Sources */,
+				47BC6AC32A22CD3D00F3F19B /* Expenses.swift in Sources */,
+				47BC6A942A22CC0000F3F19B /* ExpenseView.swift in Sources */,
+				47BC6AC62A22D4AA00F3F19B /* AddView.swift in Sources */,
+				47BC6ABC2A22CC9000F3F19B /* ExpenseItem.swift in Sources */,
+				47BC6A922A22CC0000F3F19B /* ExpenseTrackerApp.swift in Sources */,
+				47BC6AC82A22D4FD00F3F19B /* ExpenseType.swift in Sources */,
+				47BC6AC12A22CCCC00F3F19B /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47BC6AA32A22CC0100F3F19B /* Expense_TrackerTests.swift in Sources */,
+				47BC6AA32A22CC0100F3F19B /* ExpenseTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47BC6AAF2A22CC0100F3F19B /* Expense_TrackerUITestsLaunchTests.swift in Sources */,
-				47BC6AAD2A22CC0100F3F19B /* Expense_TrackerUITests.swift in Sources */,
+				47BC6AAF2A22CC0100F3F19B /* ExpenseTrackerUITestsLaunchTests.swift in Sources */,
+				47BC6AAD2A22CC0100F3F19B /* ExpenseTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
